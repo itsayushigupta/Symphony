@@ -1,0 +1,43 @@
+#heading {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.audio {
+    width: 100%;
+    background: rgb(41, 82, 129);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.music {
+    width: 50%;
+    max-width: 900px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(red, 0, 0, 0.4);
+    background: #fff;
+    color: #555;
+    border-radius: 8px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.track img {
+    width: 70px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.track div {
+    flex: 1;
+}
